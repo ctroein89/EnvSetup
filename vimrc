@@ -87,6 +87,7 @@ set list
 " filetype plugin indent on
 syntax on
 au BufNewFile,BufRead *.jsc set filetype=javascript
+au BufNewFile,BufRead ~/.work_aliases set filetype=sh
 
 set t_Co=256
 
